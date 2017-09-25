@@ -1513,7 +1513,7 @@ CREATE TABLE `jhi_user` (
 --
 
 INSERT INTO `jhi_user` (`id`, `login`, `password_hash`, `first_name`, `last_name`, `email`, `activated`, `lang_key`, `activation_key`, `reset_key`, `created_by`, `created_date`, `reset_date`, `last_modified_by`, `last_modified_date`) VALUES
-(1, 'system', '$2a$10$mE.qmcV0mFU5NcKh73TZx.z4ueI/.bDWbj0T1BYyqP481kGGarKLG', 'System', 'System', 'system@localhost', b'1', 'en', NULL, NULL, 'system', '2016-02-25 10:37:37', NULL, 'admin', '2016-07-16 04:35:40'),
+(1, 'system', ' ', 'System', 'System', 'system@localhost', b'1', 'en', NULL, NULL, 'system', '2016-02-25 10:37:37', NULL, 'admin', '2016-07-16 04:35:40'),
 (2, 'anonymousUser', ' ', 'Anonymous', 'User', 'anonymous@localhost', b'1', 'en', NULL, NULL, 'system', '2016-02-25 10:37:37', NULL, NULL, NULL),
 (3, 'admin', ' ', 'Administrator', 'Administrator', 'admin@localhost', b'1', 'en', NULL, NULL, 'system', '2016-02-25 10:37:37', NULL, NULL, NULL),
 (4, 'user', ' ', 'User', 'User', 'user@localhost', b'1', 'en', NULL, NULL, 'system', '2016-02-25 10:37:37', NULL, NULL, NULL),
