@@ -1,0 +1,35 @@
+[general]
+name=WNT Open Source
+email=gci@gc-i.de
+description=A toolbox for water utility providers
+about=Water Network Toolbox (WNT) is an application for the 
+    documentation and management of water distribution systems. 
+    It offers fundamental functions for an orderly and effective 
+    operation of water networks.
+category=WNT Open Source
+version=0.1
+tracker=https://github.com/gc-i/wntOS/issues
+repository=https://github.com/gc-i/wntOS
+qgisMinimumVersion=2.14
+author=GCI
+
+; end of mandatory metadata
+
+
+; start of optional metadata
+
+category=Database
+; Tags are in comma separated value format, spaces are allowed within the
+; tag name.
+; Tags should be in English language. Please also check for existing tags and
+; synonyms before creating a new one.
+tags=wnt,water,network,management,hydrology,pipes,manholes,asset
+
+homepage=https://github.com/gc-i/wntOS
+icon=view/icons/application.png
+
+; experimental flag 
+experimental=True
+
+; deprecated flag
+deprecated=False
